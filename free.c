@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    int* int_p;
+
+    int_p = malloc(sizeof(int));
+
+    *int_p = 12345;
+
+    printf("*int_p.. %d\n", *int_p);
+
+    free(int_p);
+
+    printf("*int_p.. %d\n", *int_p);
+
+    return 0;
+}
