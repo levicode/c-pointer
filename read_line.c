@@ -3,6 +3,8 @@
 #include <assert.h>
 #include <string.h>
 
+#include "read_line.h"
+
 #define ALLOC_SIZE (256)
 
 static char* st_line_buffer = NULL;
